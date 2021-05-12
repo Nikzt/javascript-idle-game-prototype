@@ -40,8 +40,11 @@ const addOne = (a) => a + 1
 document.getElementById("plus-one-a-button")
     .addEventListener("click", () => updateResourceA(addOne(resourceA)), false)
 document.getElementById("plus-one-b-button")
-    .addEventListener("click", () => {
-        // TODO: Bram fill this out you piece of human garbage
+    .addEventListener("click", () => { 
+        if (resourceA >= 5){
+        updateResourceA(resourceA - 5)
+        updateResourceB(resourceB + 1)}
+        else alert('Not enough Resource A!')
     }, false)
 document.getElementById("plus-one-a-gen-button")
 document.getElementById("plus-one-b-gen-button")
