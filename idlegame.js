@@ -44,8 +44,8 @@ const resourceGeneratorBItem = document.createElement("li")
 resourceGeneratorBItem.textContent = "B Generators: 0"
 
 resourceGeneratorView.appendChild(resourceGeneratorsList)
-resourceGeneratorView.appendChild(resourceGeneratorAItem)
-resourceGeneratorView.appendChild(resourceGeneratorBItem)
+resourceGeneratorsList.appendChild(resourceGeneratorAItem)
+resourceGeneratorsList.appendChild(resourceGeneratorBItem)
 
 let resourceGeneratorsA = 0;
 let resourceGeneratorsB = 0;
