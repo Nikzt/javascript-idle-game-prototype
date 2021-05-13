@@ -1,0 +1,52 @@
+html {
+    background-color: #ECEFF4;
+    color: #2E3440
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    user-select: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4em;
+    background-color: #2E3440;
+    color: #ECEFF4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgroundcolor 0.15s linear, color 0.15s linear;
+    width: 150px;
+    margin-right: 15px;
+}
+button:hover {
+    transition: background-color 0.15s linear, color 0.15s linear;
+    background-color: #d7dce3;
+    color: #2E3440;
+}
+
+label {
+    display: block;
+    width: 250px;
+}
+
+#button-group {
+    position: absolute;
+}
+
+#resource-view {
+    position: absolute;
+    left: 300px;
+}
+
+#resource-generators-view {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
