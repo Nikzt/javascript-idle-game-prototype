@@ -87,3 +87,6 @@ document.getElementById("plus-one-b-gen-button")
             alert("not enough gay monkey cum")
         }
     }, false)
+   
+setInterval(() => updateResourceA(resourceA + resourceGeneratorsA), 60000)
+setInterval(() => updateResourceB(resourceB + resourceGeneratorsB), 60000)
